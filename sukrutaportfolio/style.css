@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Istok+Web:ital@1&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(177, 122, 94);
+    width: 400px;
+    font-family: 'Fira Sans', sans-ser height 100vh
+}
+
+.sidebar nav {
+    padding: 39px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+    font-family: 'Fira Sans', sans-serif;
+ 
+   
+    
+}
+
+.sidebar nav li a {
+    
+    text-decoration: none;
+    color: rgb(1, 0, 3);
+    
+}
+
+.main {
+    background-color: rgb(214, 165, 122);
+    width: 90vw;
+   
+
+}
+
+.devInfo:hover {
+    transform: scale(1.05);
+  }
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    background-color: wheat;
+    height: 78vh;
+    width: 72vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: grid;
+    gap: 1px;
+    transition: transform 0.3s ease;
+}
+
+.devPic:hover img{
+   
+    transform: scale(1.05);
+}
+
+.hi{
+    font-size:50px;
+    font-weight: bold;
+ 
+}
+.hello{
+    font-size: 90px;
+   
+}
+ .about{
+    font-size: 40px;
+ }
+
+ .buttons{
+    margin-top: 34px;
+
+ }
+ .buttons button {
+    padding: 9px 10px;
+    border-style: curve;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover {
+background-color:whitesmoke;
+color: brown;
+
+}
+
+.devPic img {
+
+    height: 78vh;
+    width: 45vw;
+    
+}
+
+.form-text{
+
+   font-size: 30px;
+   padding: 20px;
+}
+
+.form-text img{
+    width: 4%;
+}
+.eduinfo{
+    padding-top: 50px;
+    /* background-color:burlywood; */
+    height: 78vh;
+    width: 72vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+
+       
+}
+/* .school{
+    margin: 10px 10%;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    padding-top: 50px;
+    text-align: justify;
+    background-color: rgba(255, 228, 196, 0.904);
+    
+} */
+.pre-university ,.school ,.be{
+    margin: 10px 10%;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    padding-top: 50px;
+    text-align: center;
+    box-sizing: calc(justify-content);
+    background-color: rgba(255, 228, 196, 0.904);
+}
+
+
+.skillinfo{
+    
+   font-size: 30px;
+   padding: 20px;
+}
+.hell{
+    margin: 10px 10%;
+}
+.intro{
+    margin: 10px 10%;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    padding-top: 50px;
+    background-color: rgba(255, 228, 196, 0.904) ;
+}
+.he ,li{
+    margin: 10px 10%;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    padding-top: 50px;
+    background-color: rgba(255, 228, 196, 0.904) ;
+}
+.contactform{
+    margin: 10px 10%;
+    background-color: rgba(255, 228, 196, 0.904) ;
+}
